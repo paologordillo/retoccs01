@@ -1,0 +1,91 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color:bisque;
+}
+
+.conteiner{
+  display: grid;
+  grid-template-columns: 25% 75%;
+}
+
+.optionsPanel{
+  display: flex;
+  margin: 60px;
+  padding: 10px;
+  height: 100vh;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.imageItem{
+  width: 100%;
+  height: 35%;
+  background-size: cover;
+}
+
+.optionsItems{
+  align-items: center;
+  padding: 15px;
+}
+
+.visualPanel{
+  display: grid;
+  grid-template-rows: 15% 85%;
+}
+
+.inputPanel{
+  display: grid;
+  grid-template-columns: 80% 20%;
+}
+
+.imageItem2{
+  width: 50%;
+  height: 100%;
+  background-size: cover;
+}
+
+input[type="text"]{
+  width: 60%;
+  margin: 60px;
+  border: 2px solid rgb(0, 0, 0);
+}
+
+.contentPanel{
+  display: grid;
+  grid-template-rows: 20% 80%;
+}
+
+.costItems{
+  display: flex;
+  padding: 8px;
+  flex-direction: row;
+  gap: 40px;
+  justify-content: center;
+}
+
+.costNewItems{
+  background-color: blueviolet;
+  text-align: center;
+  font-size: 25px;
+  width: 30%;
+  padding: 10px;
+}
+
+.tableItem{
+  display: flex;
+  padding: 8px;
+  flex-direction: row;
+  gap: 40px;
+}
+.tableNewItem{
+  text-align: center;
+  font-size: 25px;
+  width: 100%;
+  padding: 10px;
+  background-color:darkgreen
+}
